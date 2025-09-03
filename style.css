@@ -1,0 +1,1387 @@
+.project,
+.project * {
+  box-sizing: border-box;
+}
+.project {
+  background: #0d0c0c;
+  height: 600rem;
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  z-index: 100;
+}
+.hero-section {
+  width: 100vw;
+  height: 60rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+.minimalist-black-interior-with-black-sofa-1268-31786-1 {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  width: 100vw;
+  height: 60rem;
+  position: absolute;
+  left: 0rem;
+  top: 0.0625rem;
+  object-fit: cover;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end; /* keep buttons and logo on the right */
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  height: 80px;
+  background: transparent;
+  z-index: 100;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end; /* align buttons to the right */
+  gap: 2rem;
+  font-size: 1rem;
+  padding-top: 0;
+  margin-left: 200px;
+  margin-right: 0; /* ensure no right margin */
+  color: #f0efef;
+  border: none;
+  cursor: pointer;
+}
+  
+.logo-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start; /* align logo to the right */
+  height: 100%;
+  padding-right: 270px;
+}
+.logo { 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start; 
+  background: rgba(255, 255, 255, 0);
+  width: 4.5rem;
+  height: 1.625rem;
+  position: absolute;
+  left: 270px;
+  overflow: hidden;
+}
+.ellipse-1 {
+  background: #ff663f;
+  border-radius: 50%;
+  width: 0.5625rem;
+  height: 0.5625rem;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+}
+.i-design {
+  color: #ffffff;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 1.25rem;
+  line-height: 130%;
+  font-weight: 400;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+}
+.i-design-span {
+  font-family: "OpenSans-BoldItalic", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.i-design-span2 {
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-weight: 600;
+}
+.about {
+  color: var(--paragraf-white-color,  #f0efef);
+  text-align: center;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+    font-size: 1rem;
+  line-height: 130%;
+  font-weight: 400;
+  position: relative;
+}
+  .about:hover,
+  .about:active {
+    color: #ff663f;
+  }
+.services {
+  color: var(--paragraf-white-color, #ffffff);
+  text-align: center;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+   font-size: 1rem;
+  line-height: 130%;
+  font-weight: 400;
+  position: relative;
+}
+  .services:hover,
+  .services:active {
+    color: #ff663f;
+    background: none;
+  }
+.portfolio {
+  color: var(--paragraf-white-color, #ffffff);
+  text-align: center;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: 1rem;
+  line-height: 130%;
+  font-weight: 400;
+  position: relative;
+}
+  .portfolio:hover,
+  .portfolio:active {
+    color: #ff663f;
+  }
+.contact {
+  color: var(--paragraf-white-color,  #f0efef);
+  text-align: center;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 1rem;
+  line-height: 130%;
+  font-weight: 400;
+  position: relative;
+}
+  .contact:hover,
+  .contact:active {
+    color: #ff663f;
+  }
+.design-your-dream-house {
+  color: var(--white-h1, #fbf6f4);
+  text-align: left;
+  font-family: var(--h1-font-family, "OpenSans-Bold", sans-serif);
+  font-size: var(--h1-font-size, 4.375rem);
+  line-height: var(--h1-line-height, 100%);
+  font-weight: var(--h1-font-weight, 700);
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 37.5rem);
+  top: 43.1875rem;
+  white-space: pre-line;
+}
+.join-us-in-transforming-your-space-into-a-personalized-haven-of-style-where-every-detail-reflects-your-personality-and-taste {
+  color: var(--paragraf-white, #f0efef);
+  text-align: left;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: absolute;
+  right: 270px;
+  top: 8.3125rem;
+  width: 16.25rem;
+}
+.discover-the-art-of-personalized-interior-design-with-us-where-every-space-tells-a-unique-story {
+  color: var(--paragraf-white, #f0efef);
+  text-align: left;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: absolute;
+  left: calc(50% - 37.375rem);
+  top: 8.3125rem;
+  width: 10.25rem;
+}
+.button-primary {
+  border-radius: 62.5rem;
+  border-style: solid;
+  border-color: var(--white-hero-title, #ffffff);
+  border-width: 0.0625rem;
+  padding: 4rem 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 9.375rem;
+  height: 9.375rem;
+  margin-top: 9rem;
+  margin-left:5.6rem  /* space above button */
+}
+/* Make sure the text inside the button is visible */
+.button-primary .get-a-free-quote-now {
+  color: #fff;
+}
+.button-primary:hover,
+.button-primary:active {
+  background: #ff663f;
+  color:#fff;
+  border-color: #fff;
+}
+.button-primary:hover .get-a-free-quote-now,
+.button-primary:active .get-a-free-quote-now {
+  color:  #f0efef;
+}
+.get-a-free-quote-now {
+   color: var(--paragraf-white, #f0efef);
+  text-align: center;
+  font-family: var(--button-text-style-font-family, "OpenSans-Regular", sans-serif);
+  white-space: normal !important;
+  line-height: 1.2;
+  width: 100%;
+  display: inline-block;
+  font-size: var(--button-text-style-font-size, 1rem);
+  font-weight: var(--button-text-style-font-weight, 400);
+  text-transform: uppercase;
+  position: relative;
+}
+.section-services {          
+  max-width: 1400px;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  margin-top: 71.3125rem;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content:center;
+  width: 100%;
+  position: relative;
+  left: 0rem;
+  margin-top: 11.25rem;
+  gap: 2.7rem; 
+}
+.card-living-room {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.unsplash-3-b-8-t-4-vnk-xt-0 {
+  border-radius: 0.375rem;
+  flex-shrink: 0;
+  width: 12.625rem;
+  height: 11.625rem;
+  position: relative;
+  object-fit: cover;
+}
+.card-living-room2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.0625rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 12.625rem;
+  position: relative;
+}
+.living-room {
+  color: var(--paragraf-white, #f0efef);
+  text-align: center;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: relative;
+  width: 9.25rem;
+}
+.card-bedroom {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.unsplash-r-uv-w-1-kgd-9-a-4 {
+  border-radius: 0.375rem;
+  flex-shrink: 0;
+  width: 12.625rem;
+  height: 11.625rem;
+  position: relative;
+  object-fit: cover;
+}
+.bedroom {
+  color: var(--paragraf-white, #f0efef);
+  text-align: center;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: relative;
+  width: 9.4375rem;
+}
+.card-kitchen {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.unsplash-t-wj-0-qb-jn-4-z-i {
+  border-radius: 0.375rem;
+  flex-shrink: 0;
+  width: 12.625rem;
+  height: 11.625rem;
+  position: relative;
+  object-fit: cover;
+}
+.kitchen {
+  color: var(--paragraf-white, #f0efef);
+  text-align: center;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: relative;
+  width: 9.375rem;
+}
+.card-bathroom {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.bathroom-interior-design-with-matte-black-bath-generative-ai-587448-2021-1 {
+  border-radius: 0.375rem;
+  flex-shrink: 0;
+  width: 12.625rem;
+  height: 11.625rem;
+  position: relative;
+  object-fit: cover;
+}
+.bathroom {
+  color: var(--paragraf-white, #f0efef);
+  text-align: center;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: relative;
+  width: 8.75rem;
+}
+.kids-room {
+  color: var(--paragraf-white, #f0efef);
+  text-align: center;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: relative;
+  width: 8.75rem;
+}
+.explore-our-professional-interior-design-services {
+  color: var(--white-h1, #fbf6f4);
+  text-align: center;
+  font-family: var(--h2-font-family, "OpenSans-SemiBold", sans-serif);
+  font-size: 2.5rem;
+  line-height: var(--h2-line-height, 120%);
+  font-weight: var(--h2-font-weight, 600);
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+   transform: translateX(-50%);
+  top: 0rem;
+  width: 60rem;
+}
+.section-offer {
+  width: 85vw;
+  max-width: 1500px;
+  height: 31.224375rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 108.125rem;
+  overflow: hidden;
+}
+.frame-629 {
+  width: 85.114375rem;
+  height: 32.711875rem;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0.17625rem;
+}
+.new {
+  max-width: 1500px;
+  color: #f9f9f9;
+  text-align:center;/* Center text inside the element */
+  font-family: "OpenSans-Bold", sans-serif;
+  font-size: 34rem;
+  line-height: 120%;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  left: 50%;
+  transform:translateX(-50%);
+  top: 0rem;
+  height: 32.711875rem;
+}
+.unsplash-wb-jeqso-8-wee {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  border-radius: 1.015625rem;
+  width: 19.229375rem;
+  height: 25.005rem;
+  position: absolute;
+  left: 40.62625rem;
+  top: 0.01375rem;
+  object-fit: cover;
+}
+.section-portofolio {
+  width: 80vw;
+  height: 31.8125rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 146rem;
+  overflow-x: auto;
+  margin-top: 5.5rem;
+  margin-left: 100px;
+  margin-right:auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.o-ur-p-assion-is-the-wow {
+  color: var(--white-h1, #fbf6f4);
+  font-family: var(--h3-font-family, "OpenSans-SemiBold", sans-serif);
+  font-size: var(--h3-font-size, 3.125rem);
+  line-height: var(--h3-line-height, 120%);
+  font-weight: var(--h3-font-weight, 600);
+  text-transform: uppercase;
+  position: absolute;
+  left: 0rem;
+  top: 5rem;
+}
+.explore-a-collection-of-our-finest-works-meticulously-crafted-to-inspire-and-captivate-from-modern-marvels-to-timeless-classics-each-project-reflects-our-unwavering-commitment-to-excellence-and-our-passion-for-creating-spaces-that-elevate-the-human-experience {
+  color: var(--paragraf-white, #f0efef);
+  text-align: left;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: absolute;
+  left: 0rem;
+  top: 13.75rem;
+  width: 23.1875rem;
+}
+.unsplash-pmcgxx-2-fo-pg {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  border-radius: 1.5rem;
+  width: 43.9375rem;
+  height: 31.8125rem;
+  position: absolute;
+  left: 29.75rem;
+  top: 0rem;
+  object-fit: cover;
+}
+.arrow-19 {
+  color: var(--paragraf-white, #f0efef);
+  width: 3.9375rem;
+  height: 0rem;
+  position: absolute;
+  left: 80px;
+  top: 3.125rem;
+  overflow: visible;
+}
+.button-secondary {
+  background: var(--accent-color, #ff663f);
+  border-radius: 62.5rem;
+  padding: 0.875rem 2rem 0.875rem 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.625rem;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0rem;
+  top: 23.75rem;
+}
+.get-a-free-quote-now2 {
+  color: var(--paragraf-white, #f0efef);
+  text-align: left;
+  font-family: var(
+    --button-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--button-text-style-font-size, 1rem);
+  line-height: var(--button-text-style-line-height, 130%);
+  font-weight: var(--button-text-style-font-weight, 400);
+  text-transform: uppercase;
+  position: relative;
+  height: 1.3125rem;
+}
+.section-about-us {
+  width: 75rem;
+  position: relative;
+  left: 278px;
+  top: 100rem;
+
+}
+.the-architects-of-your-interior-dreams {
+  display: flex;
+  color: var(--white-title-section, #ffffff);
+  text-align: center;
+  font-family: var(--h4-font-family, "OpenSans-SemiBold", sans-serif);
+  font-size: var(--h4-font-size, 3.125rem);
+  line-height: var(--h4-line-height, 100%);
+  font-weight: var(--h4-font-weight, 600);
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0rem;
+  width: 41.4375rem;
+}
+.cards2 {
+  border-radius: 0.875rem;
+  width: 73.6875rem;
+  height: 49.9375rem;
+  position: absolute;
+  left: 0rem;
+  top: 10rem;
+  overflow: hidden;
+}
+.frame-42 {
+  border-radius: 0.875rem;
+  width: 16.9375rem;
+  height: 17.875rem;
+  position: absolute;
+  left: 0rem;
+  top: 0.025625rem;
+  overflow: hidden;
+  object-fit: cover;
+}
+.card-3 {
+  border-radius: 0.875rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 19rem;
+  top: 0rem;
+  overflow: hidden;
+}
+.frame-422 {
+  border-radius: 0.875rem 0.875rem 0rem 0rem;
+  flex-shrink: 0;
+  width: 16.9375rem;
+  height: 17.875rem;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.studio-shot-elder-man-with-grey-hair-23-2148036821-1 {
+  border-radius: 0.875rem;
+  width: 16.625rem;
+  height: 18.0625rem;
+  position: absolute;
+  left: 57rem;
+  top: 0rem;
+  object-fit: cover;
+}
+.frame-40 {
+  border-radius: 0.875rem;
+  width: 16.9375rem;
+  height: 18.625rem;
+  position: absolute;
+  left: 37.75rem;
+  top: 18.0625rem;
+  overflow: hidden;
+}
+.card-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: center;
+  justify-content: center;
+  width: 16.9375rem;
+  height: 4.375rem;
+  position: absolute;
+  left: 0rem;
+  top: 13.1875rem;
+}
+.we-are-more-than-just-interior-designers {
+  color: var(--paragraf-white, #f0efef);
+  text-align: left;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: absolute;
+  left: calc(50% - 36.84375rem);
+  top: 33.3125rem;
+  width: 29.5rem;
+  margin-bottom:0px;
+}
+.frame-67 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0rem;
+  top: 19.125rem;
+}
+.victor-torre {
+  color: var(--paragraf-white, #f0efef);
+  text-align: left;
+  font-family: var(
+    --subtitle-text-font-family,
+    "OpenSans-SemiBold",
+    sans-serif
+  );
+  font-size: var(--subtitle-text-font-size, 1.75rem);
+  line-height: var(--subtitle-text-line-height, 100%);
+  font-weight: var(--subtitle-text-font-weight, 600);
+  text-transform: uppercase;
+  position: relative;
+}
+.design-director {
+  color: var(--paragraf-white, #f0efef);
+  text-align: left;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: relative;
+}
+.frame-68 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 19rem;
+  top: 19.125rem;
+}
+.emily-thomson {
+  color: var(--accent-color, #ff663f);
+  text-align: left;
+  font-family: var(
+    --subtitle-text-font-family,
+    "OpenSans-SemiBold",
+    sans-serif
+  );
+  font-size: var(--subtitle-text-font-size, 1.75rem);
+  line-height: var(--subtitle-text-line-height, 100%);
+  font-weight: var(--subtitle-text-font-weight, 600);
+  text-transform: uppercase;
+  position: relative;
+}
+.interior-designer {
+  color: var(--accent-color, #ff663f);
+  text-align: left;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: relative;
+}
+.frame-672 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  left: 37.75rem;
+  top: 37.9375rem;
+}
+.diana-parker {
+  color: var(--paragraf-white, #f0efef);
+  text-align: left;
+  font-family: var(
+    --subtitle-text-font-family,
+    "OpenSans-SemiBold",
+    sans-serif
+  );
+  font-size: var(--subtitle-text-font-size, 1.75rem);
+  line-height: var(--subtitle-text-line-height, 100%);
+  font-weight: var(--subtitle-text-font-weight, 600);
+  text-transform: uppercase;
+  position: relative;
+  width: 13rem;
+  white-space: nowrap;
+}
+.project-manager {
+  color: var(--paragraf-white, #f0efef);
+  text-align: left;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: relative;
+}
+.frame-69 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 57rem;
+  top: 18.6875rem;
+}
+.clara-carter {
+  display: flex;
+  flex-direction:row;
+  color: var(--paragraf-white, #f0efef);
+  text-align: left;
+  font-family: var(
+    --subtitle-text-font-family,
+    "OpenSans-SemiBold",
+    sans-serif
+  );
+  font-size: var(--subtitle-text-font-size, 1.75rem);
+  line-height: var(--subtitle-text-line-height, 100%);
+  font-weight: var(--subtitle-text-font-weight, 600);
+  text-transform: uppercase;
+  position: relative;
+  width: 13rem;
+  white-space: nowrap;
+}
+.cad-technician {
+  color: var(--paragraf-white, #f0efef);
+  text-align: left;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: relative;
+}
+
+.section-contact {
+  width: 49.625rem; 
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 142rem; 
+}
+.subscribe-to-our-newsletter {
+  color: var(--white-h1, #fbf6f4);
+  text-align: center;
+  font-family: var(--h5-font-family, "OpenSans-SemiBold", sans-serif);
+  font-size: var(--h5-font-size, 3.125rem);
+  line-height: var(--h5-line-height, 100%);
+  font-weight: var(--h5-font-weight, 600);
+  text-transform: uppercase;
+  position: relative;
+  left: 50%;
+ transform: translateX(-50%);
+  top: 140px;
+}
+.frame-66 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0rem;
+  top: 8.25rem;
+}
+.imput {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 31.25rem;
+  position: relative;
+}
+.frame-63 {
+  display: flex;
+  flex-direction: column;
+  gap: 25.3125rem;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.email-address {
+  color: var(--paragraf-white, #f0efef);
+  text-align: left;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: relative;
+  width: 8.3125rem;
+}
+.line-1 {
+  margin-top: -0.0625rem;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 0.0625rem 0 0 0;
+  flex-shrink: 0;
+  width: 31.25rem;
+  height: 0rem;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.imput2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.phone {
+  color: var(--paragraf-white, #f0efef);
+  text-align: left;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: relative;
+  width: 8.3125rem;
+}
+.button-primary {
+  border-radius: 62.5rem;
+  border-style: solid;
+  border-color: var(--white-hero-title, #ffffff);
+  border-width: 0.0625rem;
+  padding: 0.875rem 2rem 0.875rem 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.625rem;
+  align-items: center;
+  justify-content: center;
+  width: 9.375rem;
+  height: 9.375rem;
+  position: absolute;
+  left: calc(50% - -15.4375rem);
+  top: 6.875rem;
+}
+.get-a-free-quote-now {
+  color: var(--paragraf-white, #f0efef);
+  text-align: center;
+  font-family: var(
+    --button-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--button-text-style-font-size, 1rem);
+  line-height: var(--button-text-style-line-height, 130%);
+  font-weight: var(--button-text-style-font-weight, 400);
+  text-transform: uppercase;
+  position: relative;
+  width: 6.5625rem;
+}
+
+.section-partners {
+  width: 100vw;
+  max-width: 1920px;
+  height: 17.150625rem;
+  position: absolute;
+  left: 0;
+  top: 271.625rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-84 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100rem;
+  position: absolute;
+  left: 0rem;
+  top: 6.5rem;
+}
+
+/* Footer - use flexbox for main layout and columns */
+.footer {
+  width: 80vw;
+  max-width: 1400px;
+  height: 18.375rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 298.75rem;
+  overflow: hidden;
+  margin-left: 100px;
+  margin-right:auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.frame-81, .frame-83 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.support {
+  color: var(--paragraf-white, #f0efef);
+  text-align: left;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 1.125rem;
+  line-height: 130%;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: underline;
+  position: absolute;
+  left: 62.4375rem;
+  top: 0.1875rem;
+  width: 6.1875rem;
+}
+.copyright-2025-i-design-all-rights-reserved {
+  /* ...existing code... */
+}
+.follow-us {
+  /* ...existing code... */
+}
+.frame-71 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.625rem;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 18.75rem;
+  height: 10.375rem;
+  position: relative;
+  object-fit: cover;
+}
+.rectangle-67 {
+  border-radius: 0.625rem;
+  flex-shrink: 0;
+  width: 18.9375rem;
+  height: 10.375rem;
+  position: relative;
+  object-fit: cover;
+}
+.rectangle-69 {
+  border-radius: 0.625rem;
+  flex-shrink: 0;
+  width: 18.75rem;
+  height: 10.625rem;
+  position: relative;
+  object-fit: cover;
+}
+.rectangle-68 {
+  border-radius: 0.625rem;
+  flex-shrink: 0;
+  width: 19.0625rem;
+  height: 10.625rem;
+  position: relative;
+  object-fit: cover;
+}
+.meet-our-partners {
+  color: var(--white-h1, #fbf6f4);
+  text-align: center;
+  font-family: var(--h6-font-family, "OpenSans-SemiBold", sans-serif);
+  font-size: var(--h6-font-size, 3.125rem);
+  line-height: var(--h6-line-height, 100%);
+  font-weight: var(--h6-font-weight, 600);
+  text-transform: uppercase;
+  position: absolute;
+  left: calc(50% - 21.0625rem);
+  top: 0rem;
+  width: 42rem;
+  height: 2.75rem;
+}
+.i-design2 {
+  color: var(--paragraf-white, #f0efef);
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 2.1354165077209473rem;
+  font-weight: 400;
+  position: absolute;
+  left: 0.0625rem;
+  top: 0.375rem;
+}
+.i-design-2-span {
+  font-family: "OpenSans-BoldItalic", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.i-design-2-span2 {
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-weight: 600;
+}
+.ellipse-12 {
+  background: #ff663f;
+  border-radius: 50%;
+  width: 0.96125rem;
+  height: 0.96125rem;
+  position: absolute;
+  left: 0rem;
+  top: 0.1875rem;
+}
+.crafted-with-care-for-your-comfort-and-style-let-s-design-your-dream-space-together {
+  color: var(--white-h1, #fbf6f4);
+  text-align: left;
+  font-family: var(
+    --subtitle-text-font-family,
+    "OpenSans-SemiBold",
+    sans-serif
+  );
+  font-size: var(--subtitle-text-font-size, 1.75rem);
+  line-height: var(--subtitle-text-style-line-height, 100%);
+  font-weight: var(--subtitle-text-font-weight, 600);
+  text-transform: uppercase;
+  position: absolute;
+  left: 13.25rem;
+  top: 0.1875rem;
+  width: 32rem;
+  height: 5.125rem;
+}
+.menu {
+  color: var(--paragraf-white, #f0efef);
+  text-align: left;
+  font-family: var(
+    --subtitle-text-2-font-family,
+    "OpenSans-SemiBold",
+    sans-serif
+  );
+  font-size: var(--subtitle-text-2-font-size, 1.125rem);
+  line-height: var(--subtitle-text-2-line-height, 130%);
+  font-weight: var(--subtitle-text-2-font-weight, 600);
+  text-transform: uppercase;
+  text-decoration: underline;
+  position: absolute;
+  left: 50.8125rem;
+  top: 0.1875rem;
+  width: 4.125rem;
+  height: 1.4375rem;
+}
+.frame-81 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 50.8125rem;
+  top: 2.875rem;
+}
+.services2 {
+  color: var(--paragraf-white, #f0efef);
+  text-align: right;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: relative;
+}
+.portofolio {
+  color: var(--paragraf-white, #f0efef);
+  text-align: right;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: relative;
+}
+.about-us {
+  color: var(--paragraf-white, #f0efef);
+  text-align: right;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: relative;
+}
+.our-partners {
+  color: var(--paragraf-white, #f0efef);
+  text-align: right;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: relative;
+}
+.offers {
+  color: var(--paragraf-white, #f0efef);
+  text-align: right;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: relative;
+}
+.s-upport {
+  color: var(--paragraf-white, #f0efef);
+  text-align: left;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 1.125rem;
+  line-height: 130%;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: underline;
+  position: absolute;
+  left: 62.4375rem;
+  top: 0.1875rem;
+  width: 6.1875rem;
+}
+.frame-83 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  left: 62.4375rem;
+  top: 2.875rem;
+}
+.contact-us {
+  color: var(--paragraf-white, #f0efef);
+  text-align: left;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: relative;
+  width: 6.25rem;
+}
+.your-orders {
+  color: var(--paragraf-white, #f0efef);
+  text-align: left;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: relative;
+  width: 6.9375rem;
+}
+.site-map {
+  color: var(--paragraf-white, #f0efef);
+  text-align: left;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: relative;
+  width: 5.125rem;
+}
+.terms-and-conditions {
+  color: var(--paragraf-white, #f0efef);
+  text-align: left;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: relative;
+  width: 12.5625rem;
+}
+.legal-privacy {
+  color: var(--paragraf-white, #f0efef);
+  text-align: left;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: relative;
+  width: 8.0625rem;
+}
+.copyright-2024-i-design-all-rights-reserved {
+  color: var(--footer-grey-element-color, #777777);
+  text-align: right;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: absolute;
+  left: 13.1875rem;
+  top: 13.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.follow-us {
+  color: var(--paragraf-white, #f0efef);
+  text-align: right;
+  font-family: var(
+    --paragraf-text-style-font-family,
+    "OpenSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraf-text-style-font-size, 1rem);
+  line-height: var(--paragraf-text-style-line-height, 130%);
+  font-weight: var(--paragraf-text-style-font-weight, 400);
+  position: absolute;
+  left: 46.3125rem;
+  top: 13.625rem;
+  width: 10.3125rem;
+}
+
+.facebook {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: visible;
+}
+.instagram {
+  flex-shrink: 0;
+  width: 1.3125rem;
+  height: 1.3125rem;
+  position: relative;
+  overflow: visible;
+}
+.social-youtube {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: visible;
+}
+
